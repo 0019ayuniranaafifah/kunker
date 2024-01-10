@@ -1,0 +1,1437 @@
+CRITICAL - 2023-10-22 07:53:13 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(42): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:53:13 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:53:28 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:53:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:53:32 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:53:32 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:53:33 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:53:33 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:53:47 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:53:47 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:54:10 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:54:10 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:54:10 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:54:10 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:54:11 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:54:11 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:54:11 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:54:11 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:54:16 --> Call to undefined method CodeIgniter\Session\Session::unset()
+in APPPATH\Controllers\Root.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->logout()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:54:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:55:21 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+in APPPATH\Views\landing.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('landing', [], true)
+ 4 APPPATH\Controllers\Root.php(18): view('landing')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:55:21 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:59:10 --> Undefined array key "kodeakses"
+in APPPATH\Controllers\Root.php on line 31.
+ 1 APPPATH\Controllers\Root.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeakses"', 'APPPATH\\Controllers\\Root.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:59:10 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:59:37 --> Undefined array key "kodeakses"
+in APPPATH\Controllers\Root.php on line 31.
+ 1 APPPATH\Controllers\Root.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeakses"', 'APPPATH\\Controllers\\Root.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:59:37 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 07:59:59 --> Undefined array key "kodeakses"
+in APPPATH\Controllers\Root.php on line 31.
+ 1 APPPATH\Controllers\Root.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeakses"', 'APPPATH\\Controllers\\Root.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 07:59:59 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:00:35 --> Undefined array key "kodeakses"
+in APPPATH\Controllers\Root.php on line 31.
+ 1 APPPATH\Controllers\Root.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeakses"', 'APPPATH\\Controllers\\Root.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:00:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:01:40 --> Undefined array key "kodeakses"
+in APPPATH\Controllers\Root.php on line 31.
+ 1 APPPATH\Controllers\Root.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeakses"', 'APPPATH\\Controllers\\Root.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:01:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:01:49 --> Undefined array key "kodeakses"
+in APPPATH\Controllers\Root.php on line 31.
+ 1 APPPATH\Controllers\Root.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeakses"', 'APPPATH\\Controllers\\Root.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:01:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:01:52 --> Undefined array key "kodeakses"
+in APPPATH\Controllers\Root.php on line 31.
+ 1 APPPATH\Controllers\Root.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodeakses"', 'APPPATH\\Controllers\\Root.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:01:52 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:02:39 --> Undefined array key "username"
+in APPPATH\Controllers\Root.php on line 24.
+ 1 APPPATH\Controllers\Root.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Root.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:02:39 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:02:43 --> Undefined array key "username"
+in APPPATH\Controllers\Root.php on line 24.
+ 1 APPPATH\Controllers\Root.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Root.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:02:43 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:03:15 --> Undefined array key "username"
+in APPPATH\Controllers\Root.php on line 24.
+ 1 APPPATH\Controllers\Root.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Root.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:03:15 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:03:15 --> Undefined array key "username"
+in APPPATH\Controllers\Root.php on line 24.
+ 1 APPPATH\Controllers\Root.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Root.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:03:15 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:03:16 --> Undefined array key "username"
+in APPPATH\Controllers\Root.php on line 24.
+ 1 APPPATH\Controllers\Root.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Root.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:03:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:03:16 --> Undefined array key "username"
+in APPPATH\Controllers\Root.php on line 24.
+ 1 APPPATH\Controllers\Root.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Root.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:03:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:03:16 --> Undefined array key "username"
+in APPPATH\Controllers\Root.php on line 24.
+ 1 APPPATH\Controllers\Root.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Root.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:03:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:28:26 --> Invalid file: admin/creditor.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/creditor.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditor', [], true)
+ 3 APPPATH\Controllers\Creditor.php(14): view('admin/creditor', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:28:26 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:28:52 --> Undefined array key "idkredit"
+in APPPATH\Views\admin\creditor.php on line 44.
+ 1 APPPATH\Views\admin\creditor.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkredit"', 'APPPATH\\Views\\admin\\creditor.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditor', [], true)
+ 5 APPPATH\Controllers\Creditor.php(14): view('admin/creditor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:28:52 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:28:53 --> Undefined array key "idkredit"
+in APPPATH\Views\admin\creditor.php on line 44.
+ 1 APPPATH\Views\admin\creditor.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkredit"', 'APPPATH\\Views\\admin\\creditor.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditor', [], true)
+ 5 APPPATH\Controllers\Creditor.php(14): view('admin/creditor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:28:53 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:28:53 --> Undefined array key "idkredit"
+in APPPATH\Views\admin\creditor.php on line 44.
+ 1 APPPATH\Views\admin\creditor.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkredit"', 'APPPATH\\Views\\admin\\creditor.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditor', [], true)
+ 5 APPPATH\Controllers\Creditor.php(14): view('admin/creditor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:28:53 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:28:53 --> Undefined array key "idkredit"
+in APPPATH\Views\admin\creditor.php on line 44.
+ 1 APPPATH\Views\admin\creditor.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkredit"', 'APPPATH\\Views\\admin\\creditor.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditor', [], true)
+ 5 APPPATH\Controllers\Creditor.php(14): view('admin/creditor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:28:53 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:28:54 --> Undefined array key "idkredit"
+in APPPATH\Views\admin\creditor.php on line 44.
+ 1 APPPATH\Views\admin\creditor.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkredit"', 'APPPATH\\Views\\admin\\creditor.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditor.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditor', [], true)
+ 5 APPPATH\Controllers\Creditor.php(14): view('admin/creditor', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:28:54 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 08:34:58 --> Invalid file: admin/creditornew.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/creditornew.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditornew', [], true)
+ 3 APPPATH\Controllers\Creditor.php(23): view('admin/creditornew')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->add()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 08:34:58 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 09:20:48 --> Undefined array key "nama"
+in APPPATH\Controllers\Creditor.php on line 45.
+ 1 APPPATH\Controllers\Creditor.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'APPPATH\\Controllers\\Creditor.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 09:20:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 09:21:30 --> Too few arguments to function App\Controllers\Creditor::buatusername(), 0 passed in C:\xampp\htdocs\kreditbkk\app\Controllers\Creditor.php on line 49 and exactly 1 expected
+in APPPATH\Controllers\Creditor.php on line 22.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 09:21:30 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ArgumentCountError), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ArgumentCountError))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 09:22:12 --> Undefined array key "aksi"
+in APPPATH\Controllers\Creditor.php on line 42.
+ 1 APPPATH\Controllers\Creditor.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aksi"', 'APPPATH\\Controllers\\Creditor.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 09:22:12 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 09:44:28 --> Undefined array key "aksi"
+in APPPATH\Controllers\Creditor.php on line 42.
+ 1 APPPATH\Controllers\Creditor.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "aksi"', 'APPPATH\\Controllers\\Creditor.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 09:44:28 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 09:45:43 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername('Rania')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 09:45:43 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 09:47:13 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername('Rania')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 09:47:13 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 09:47:55 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername('Rania')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 09:47:55 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 09:48:46 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername('Rania')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 09:48:46 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:09:51 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername('Rania')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:09:51 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:11:48 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername('Rania Safitri')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:11:48 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:11:54 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername('Rania Safitri')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:11:54 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:12:27 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(49): App\Controllers\Creditor->buatusername('Rania Safitri')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:12:27 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:15:27 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(43): App\Controllers\Creditor->buatusername('Rania Safitri')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:15:27 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:15:33 --> Call to undefined method App\Controllers\Creditor::getSome()
+in APPPATH\Controllers\Creditor.php on line 28.
+ 1 APPPATH\Controllers\Creditor.php(43): App\Controllers\Creditor->buatusername('Rania Safitri')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:15:33 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:26:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\typedetail.php on line 31.
+ 1 APPPATH\Views\admin\typedetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\typedetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\typedetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/typedetail', [], true)
+ 5 APPPATH\Controllers\Type.php(42): view('admin/typedetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Type->detail('images', 'logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Type))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:26:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\typedetail.php on line 31.
+ 1 APPPATH\Views\admin\typedetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\typedetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\typedetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/typedetail', [], true)
+ 5 APPPATH\Controllers\Type.php(42): view('admin/typedetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Type->detail('images', 'logo-text.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Type))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:26:35 --> Invalid file: admin/creditordetail.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/creditordetail.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 3 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('2')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:26:35 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:28:00 --> Undefined array key "idkredit"
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkredit"', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:28:00 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:28:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:28:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo-text.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:29:38 --> Undefined variable $d
+in APPPATH\Views\admin\creditordetail.php on line 36.
+ 1 APPPATH\Views\admin\creditordetail.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'APPPATH\\Views\\admin\\creditordetail.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:29:38 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 10:29:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:29:51 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo-text.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:31:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:31:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo-text.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:31:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:31:35 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo-text.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:31:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 10:31:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo-text.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:32:34 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:32:34 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo-text.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:32:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:32:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\creditordetail.php on line 31.
+ 1 APPPATH\Views\admin\creditordetail.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\admin\\creditordetail.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\creditordetail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/creditordetail', [], true)
+ 5 APPPATH\Controllers\Creditor.php(70): view('admin/creditordetail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Creditor->detail('images', 'logo-text.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Creditor))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:34:03 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('select')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:34:03 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 18:34:13 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:34:13 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo-text.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:39:24 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:39:24 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo-text.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:39:54 --> Undefined array key "kredit"
+in APPPATH\Controllers\Type.php on line 31.
+ 1 APPPATH\Controllers\Type.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kredit"', 'APPPATH\\Controllers\\Type.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Type->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Type))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:39:54 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 18:39:57 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:39:57 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo-text.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:40:06 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:40:06 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo-text.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:40:16 --> Undefined array key "jenis"
+in APPPATH\Controllers\Indicator.php on line 33.
+ 1 APPPATH\Controllers\Indicator.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'APPPATH\\Controllers\\Indicator.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->save()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:40:16 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-22 18:41:02 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:41:03 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo-text.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:41:04 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:41:04 --> Invalid file: admin/indicatornewselect.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/indicatornewselect.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicatornewselect', [], true)
+ 3 APPPATH\Controllers\Indicator.php(26): view('admin/indicatornewselect')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->add('images', 'logo-text.png')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:41:18 --> Undefined array key "idkredit"
+in APPPATH\Views\admin\indicator.php on line 52.
+ 1 APPPATH\Views\admin\indicator.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idkredit"', 'APPPATH\\Views\\admin\\indicator.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\indicator.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/indicator', [], true)
+ 5 APPPATH\Controllers\Indicator.php(14): view('admin/indicator', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Indicator->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Indicator))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-10-22 18:41:18 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\kreditbkk\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\kreditbkk\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\kreditbkk\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

@@ -1,0 +1,161 @@
+CRITICAL - 2022-12-03 04:19:02 --> Undefined variable $tentang
+in APPPATH\Views\situs\landing.php on line 37.
+ 1 APPPATH\Views\situs\landing.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tentang', 'APPPATH\\Views\\situs\\landing.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\situs\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('situs/landing', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(12): view('situs/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 04:19:30 --> Undefined variable $tentang
+in APPPATH\Views\situs\landing.php on line 37.
+ 1 APPPATH\Views\situs\landing.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tentang', 'APPPATH\\Views\\situs\\landing.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\situs\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('situs/landing', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(12): view('situs/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Karyawan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 04:31:07 --> syntax error, unexpected token "}"
+in APPPATH\Views\admin\nilai.php on line 68.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 3 APPPATH\Controllers\Nilai.php(12): view('admin/nilai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Nilai->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:41:59 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Analisa.php(123): CodeIgniter\Model->__call('pilih', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata('11_2022')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-03 05:45:30 --> mysqli_sql_exception: Unknown column 'skema.bobot' in 'field list' in C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php(292): mysqli->query('select kriteria...', 0)
+#1 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select kriteria...')
+#2 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select kriteria...')
+#3 C:\xampp\htdocs\estu\app\Controllers\Analisa.php(124): CodeIgniter\Database\BaseConnection->query('select kriteria...')
+#4 C:\xampp\htdocs\estu\system\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata('11_2022')
+#5 C:\xampp\htdocs\estu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+#6 C:\xampp\htdocs\estu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\estu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\estu\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-12-03 05:45:30 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Analisa.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata('11_2022')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:47:06 --> Array to string conversion
+in APPPATH\Controllers\Analisa.php on line 127.
+ 1 APPPATH\Controllers\Analisa.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Analisa.php', 127)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:53:22 --> Array to string conversion
+in APPPATH\Controllers\Analisa.php on line 128.
+ 1 APPPATH\Controllers\Analisa.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Analisa.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:53:42 --> Array to string conversion
+in APPPATH\Controllers\Analisa.php on line 128.
+ 1 APPPATH\Controllers\Analisa.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Analisa.php', 128)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:54:51 --> Undefined variable $proyek
+in APPPATH\Controllers\Analisa.php on line 145.
+ 1 APPPATH\Controllers\Analisa.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Controllers\\Analisa.php', 145)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:55:31 --> Undefined variable $proyek
+in APPPATH\Controllers\Analisa.php on line 153.
+ 1 APPPATH\Controllers\Analisa.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Controllers\\Analisa.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:55:38 --> Undefined variable $supplier
+in APPPATH\Controllers\Analisa.php on line 181.
+ 1 APPPATH\Controllers\Analisa.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $supplier', 'APPPATH\\Controllers\\Analisa.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:56:05 --> Undefined array key "kodepengguna"
+in APPPATH\Controllers\Analisa.php on line 183.
+ 1 APPPATH\Controllers\Analisa.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodepengguna"', 'APPPATH\\Controllers\\Analisa.php', 183)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:56:23 --> Undefined array key "kodepengguna"
+in APPPATH\Controllers\Analisa.php on line 194.
+ 1 APPPATH\Controllers\Analisa.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kodepengguna"', 'APPPATH\\Controllers\\Analisa.php', 194)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:57:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Analisa.php(196): CodeIgniter\Model->__call('pilih', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:58:08 --> Undefined array key "alamat"
+in APPPATH\Controllers\Analisa.php on line 223.
+ 1 APPPATH\Controllers\Analisa.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'APPPATH\\Controllers\\Analisa.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 05:59:58 --> Undefined variable $proyek
+in APPPATH\Controllers\Analisa.php on line 234.
+ 1 APPPATH\Controllers\Analisa.php(234): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Controllers\\Analisa.php', 234)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-03 06:01:13 --> Undefined variable $proyek
+in APPPATH\Controllers\Analisa.php on line 244.
+ 1 APPPATH\Controllers\Analisa.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proyek', 'APPPATH\\Controllers\\Analisa.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

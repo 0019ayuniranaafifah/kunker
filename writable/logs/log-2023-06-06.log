@@ -1,0 +1,14 @@
+ERROR - 2023-06-06 06:01:30 --> mysqli_sql_exception: Unknown column 'waktu_jual' in 'field list' in C:\xampp\htdocs\mochan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\mochan\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\mochan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\mochan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\mochan\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\mochan\app\Models\Databasemodel.php(18): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\mochan\app\Controllers\Pesan.php(226): App\Models\Databasemodel->inserting('tbl_djual', Array)
+#6 C:\xampp\htdocs\mochan\system\CodeIgniter.php(927): App\Controllers\Pesan->bayardata()
+#7 C:\xampp\htdocs\mochan\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+#8 C:\xampp\htdocs\mochan\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\mochan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\mochan\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}

@@ -1,0 +1,708 @@
+CRITICAL - 2023-07-08 07:35:49 --> Undefined array key "bbaku"
+in APPPATH\Controllers\Pengguna.php on line 139.
+ 1 APPPATH\Controllers\Pengguna.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku"', 'APPPATH\\Controllers\\Pengguna.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pengguna->savedatabarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:35:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:36:59 --> Undefined array key "bbaku"
+in APPPATH\Controllers\Pengguna.php on line 139.
+ 1 APPPATH\Controllers\Pengguna.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku"', 'APPPATH\\Controllers\\Pengguna.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pengguna->savedatabarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:36:59 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:38:34 --> Undefined array key "bbaku"
+in APPPATH\Controllers\Pengguna.php on line 139.
+ 1 APPPATH\Controllers\Pengguna.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku"', 'APPPATH\\Controllers\\Pengguna.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pengguna->savedatabarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:38:34 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:38:49 --> Undefined array key "bbaku"
+in APPPATH\Controllers\Pengguna.php on line 139.
+ 1 APPPATH\Controllers\Pengguna.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku"', 'APPPATH\\Controllers\\Pengguna.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pengguna->savedatabarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:38:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:39:06 --> Undefined array key "bbaku"
+in APPPATH\Controllers\Pengguna.php on line 139.
+ 1 APPPATH\Controllers\Pengguna.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku"', 'APPPATH\\Controllers\\Pengguna.php', 139)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pengguna->savedatabarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:39:06 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:43:32 --> Undefined array key 6
+in APPPATH\Views\pen\landing.php on line 147.
+ 1 APPPATH\Views\pen\landing.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Views\\pen\\landing.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pen\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pen/landing', [], true)
+ 5 APPPATH\Controllers\Penjualan.php(17): view('pen/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Penjualan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penjualan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:43:32 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:43:40 --> Undefined array key "bbaku_barang"
+in APPPATH\Views\pen\barang.php on line 77.
+ 1 APPPATH\Views\pen\barang.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku_barang"', 'APPPATH\\Views\\pen\\barang.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pen\\barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pen/barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(19): view('pen/barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:43:40 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:44:26 --> Undefined array key "bbaku_barang"
+in APPPATH\Views\pen\barang.php on line 205.
+ 1 APPPATH\Views\pen\barang.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku_barang"', 'APPPATH\\Views\\pen\\barang.php', 205)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pen\\barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pen/barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(19): view('pen/barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:44:26 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:44:26 --> Undefined array key "bbaku_barang"
+in APPPATH\Views\pen\barang.php on line 205.
+ 1 APPPATH\Views\pen\barang.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku_barang"', 'APPPATH\\Views\\pen\\barang.php', 205)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pen\\barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pen/barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(19): view('pen/barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:44:26 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:44:27 --> Undefined array key "bbaku_barang"
+in APPPATH\Views\pen\barang.php on line 205.
+ 1 APPPATH\Views\pen\barang.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku_barang"', 'APPPATH\\Views\\pen\\barang.php', 205)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pen\\barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pen/barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(19): view('pen/barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:44:27 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:44:27 --> Undefined array key "bbaku_barang"
+in APPPATH\Views\pen\barang.php on line 205.
+ 1 APPPATH\Views\pen\barang.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku_barang"', 'APPPATH\\Views\\pen\\barang.php', 205)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pen\\barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pen/barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(19): view('pen/barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:44:27 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 07:44:51 --> Undefined array key "bbaku_barang"
+in APPPATH\Views\pen\barang.php on line 195.
+ 1 APPPATH\Views\pen\barang.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bbaku_barang"', 'APPPATH\\Views\\pen\\barang.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pen\\barang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pen/barang', [], true)
+ 5 APPPATH\Controllers\Barang.php(19): view('pen/barang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 07:44:51 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:17:17 --> Undefined array key "id_barang"
+in APPPATH\Controllers\Pesan.php on line 176.
+ 1 APPPATH\Controllers\Pesan.php(176): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_barang"', 'APPPATH\\Controllers\\Pesan.php', 176)
+ 2 APPPATH\Controllers\Pesan.php(169): App\Controllers\Pesan->hitungstok('POJBW0807202308001')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pesan->savedata()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:17:17 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:17:24 --> Undefined array key "tglkirim"
+in APPPATH\Controllers\Pesan.php on line 157.
+ 1 APPPATH\Controllers\Pesan.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tglkirim"', 'APPPATH\\Controllers\\Pesan.php', 157)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pesan->savedata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:17:24 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-07-08 08:37:06 --> mysqli_sql_exception: Unknown column 'tbl_jual.status_jual' in 'where clause' in C:\xampp\htdocs\mochan\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\mochan\system\Database\MySQLi\Connection.php(292): mysqli->query('select sum(tbl_...', 0)
+#1 C:\xampp\htdocs\mochan\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select sum(tbl_...')
+#2 C:\xampp\htdocs\mochan\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select sum(tbl_...')
+#3 C:\xampp\htdocs\mochan\app\Views\pen\jualbaru.php(39): CodeIgniter\Database\BaseConnection->query('select sum(tbl_...')
+#4 C:\xampp\htdocs\mochan\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\mochan\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\mochan\system\Common.php(1134): CodeIgniter\View\View->render('pen/jualbaru', Array, true)
+#7 C:\xampp\htdocs\mochan\app\Controllers\Jual.php(131): view('pen/jualbaru', Array)
+#8 C:\xampp\htdocs\mochan\system\CodeIgniter.php(927): App\Controllers\Jual->additem()
+#9 C:\xampp\htdocs\mochan\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jual))
+#10 C:\xampp\htdocs\mochan\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\mochan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\mochan\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-07-08 08:37:06 --> Call to a member function getRowArray() on bool
+in APPPATH\Views\pen\jualbaru.php on line 39.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pen/jualbaru', [], true)
+ 4 APPPATH\Controllers\Jual.php(131): view('pen/jualbaru', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jual->additem()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jual))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:37:06 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:44:39 --> Undefined array key "harga_djual"
+in APPPATH\Views\admin\jual.php on line 143.
+ 1 APPPATH\Views\admin\jual.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_djual"', 'APPPATH\\Views\\admin\\jual.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jual.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/jual', [], true)
+ 5 APPPATH\Controllers\Data.php(76): view('admin/jual', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->jual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:44:39 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:44:50 --> Undefined array key "harga_djual"
+in APPPATH\Views\admin\jual.php on line 143.
+ 1 APPPATH\Views\admin\jual.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_djual"', 'APPPATH\\Views\\admin\\jual.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jual.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/jual', [], true)
+ 5 APPPATH\Controllers\Data.php(76): view('admin/jual', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->jual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:44:50 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:46:45 --> Undefined array key "harga_djual"
+in APPPATH\Views\admin\jual.php on line 143.
+ 1 APPPATH\Views\admin\jual.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_djual"', 'APPPATH\\Views\\admin\\jual.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jual.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/jual', [], true)
+ 5 APPPATH\Controllers\Data.php(76): view('admin/jual', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->jual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:46:45 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:49:57 --> Undefined array key "harga_djual"
+in APPPATH\Views\admin\jual.php on line 143.
+ 1 APPPATH\Views\admin\jual.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_djual"', 'APPPATH\\Views\\admin\\jual.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jual.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/jual', [], true)
+ 5 APPPATH\Controllers\Data.php(76): view('admin/jual', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->jual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:49:57 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:50:09 --> Undefined array key "harga_djual"
+in APPPATH\Views\admin\jual.php on line 143.
+ 1 APPPATH\Views\admin\jual.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_djual"', 'APPPATH\\Views\\admin\\jual.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jual.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/jual', [], true)
+ 5 APPPATH\Controllers\Data.php(76): view('admin/jual', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->jual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:50:09 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:52:32 --> Undefined array key "harga_djual"
+in APPPATH\Views\admin\jual.php on line 143.
+ 1 APPPATH\Views\admin\jual.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_djual"', 'APPPATH\\Views\\admin\\jual.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jual.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/jual', [], true)
+ 5 APPPATH\Controllers\Data.php(76): view('admin/jual', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->jual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:52:32 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:52:42 --> Undefined array key "harga_djual"
+in APPPATH\Views\admin\jual.php on line 143.
+ 1 APPPATH\Views\admin\jual.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_djual"', 'APPPATH\\Views\\admin\\jual.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jual.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/jual', [], true)
+ 5 APPPATH\Controllers\Data.php(76): view('admin/jual', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->jual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:52:42 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:53:34 --> Undefined array key "harga_djual"
+in APPPATH\Views\admin\jual.php on line 143.
+ 1 APPPATH\Views\admin\jual.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga_djual"', 'APPPATH\\Views\\admin\\jual.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\jual.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/jual', [], true)
+ 5 APPPATH\Controllers\Data.php(76): view('admin/jual', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->jual()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:53:34 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:57:14 --> Undefined array key 6
+in APPPATH\Views\admin\landing.php on line 147.
+ 1 APPPATH\Views\admin\landing.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Views\\admin\\landing.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 5 APPPATH\Controllers\Admin.php(13): view('admin/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:57:14 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:57:18 --> Undefined array key 6
+in APPPATH\Views\admin\landing.php on line 147.
+ 1 APPPATH\Views\admin\landing.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Views\\admin\\landing.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 5 APPPATH\Controllers\Admin.php(13): view('admin/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:57:18 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 08:57:18 --> Undefined array key 6
+in APPPATH\Views\admin\landing.php on line 147.
+ 1 APPPATH\Views\admin\landing.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Views\\admin\\landing.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 5 APPPATH\Controllers\Admin.php(13): view('admin/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 08:57:18 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 09:00:24 --> Undefined array key 6
+in APPPATH\Views\admin\landing.php on line 147.
+ 1 APPPATH\Views\admin\landing.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Views\\admin\\landing.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 5 APPPATH\Controllers\Admin.php(13): view('admin/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 09:00:24 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 09:00:41 --> Undefined array key 6
+in APPPATH\Views\admin\landing.php on line 147.
+ 1 APPPATH\Views\admin\landing.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Views\\admin\\landing.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/landing', [], true)
+ 5 APPPATH\Controllers\Admin.php(13): view('admin/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 09:00:42 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 09:00:49 --> Undefined array key 6
+in APPPATH\Views\keu\landing.php on line 147.
+ 1 APPPATH\Views\keu\landing.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Views\\keu\\landing.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\keu\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('keu/landing', [], true)
+ 5 APPPATH\Controllers\Keuangan.php(15): view('keu/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Keuangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 09:00:49 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-08 09:01:02 --> Undefined array key 6
+in APPPATH\Views\keu\landing.php on line 147.
+ 1 APPPATH\Views\keu\landing.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 6', 'APPPATH\\Views\\keu\\landing.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\keu\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('keu/landing', [], true)
+ 5 APPPATH\Controllers\Keuangan.php(15): view('keu/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Keuangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-08 09:01:02 --> Uncaught ErrorException: file_get_contents(C:\xampp\htdocs\mochan\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php:14
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\mochan\app\Views\errors\html\error_exception.php(14): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\mochan\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+in APPPATH\Views\errors\html\error_exception.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

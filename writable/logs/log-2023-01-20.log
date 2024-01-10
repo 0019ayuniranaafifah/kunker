@@ -1,0 +1,48 @@
+CRITICAL - 2023-01-20 00:03:11 --> Undefined array key "01"
+in APPPATH\Controllers\Analisa.php on line 70.
+ 1 APPPATH\Controllers\Analisa.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "01"', 'APPPATH\\Controllers\\Analisa.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->prosesdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 00:03:37 --> Undefined array key "01"
+in APPPATH\Controllers\Analisa.php on line 100.
+ 1 APPPATH\Controllers\Analisa.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "01"', 'APPPATH\\Controllers\\Analisa.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->prosesdata('87')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 00:03:49 --> Undefined array key "01"
+in APPPATH\Controllers\Analisa.php on line 101.
+ 1 APPPATH\Controllers\Analisa.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "01"', 'APPPATH\\Controllers\\Analisa.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->prosesdata('87')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 00:03:57 --> Undefined array key "01"
+in APPPATH\Controllers\Analisa.php on line 102.
+ 1 APPPATH\Controllers\Analisa.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "01"', 'APPPATH\\Controllers\\Analisa.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->prosesdata('87')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 00:04:07 --> Undefined array key "01"
+in APPPATH\Controllers\Analisa.php on line 104.
+ 1 APPPATH\Controllers\Analisa.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "01"', 'APPPATH\\Controllers\\Analisa.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->prosesdata('87')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-20 00:04:22 --> Undefined array key "01"
+in APPPATH\Controllers\Analisa.php on line 125.
+ 1 APPPATH\Controllers\Analisa.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "01"', 'APPPATH\\Controllers\\Analisa.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Analisa->cetakdata([...])
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Analisa))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

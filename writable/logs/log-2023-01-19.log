@@ -1,0 +1,35 @@
+CRITICAL - 2023-01-19 23:50:55 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-19 23:56:57 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Skema.php on line 26.
+ 1 APPPATH\Controllers\Skema.php(26): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Skema->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skema))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-19 23:58:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Skema.php on line 26.
+ 1 APPPATH\Controllers\Skema.php(26): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Skema->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skema))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-19 23:58:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Skema.php on line 26.
+ 1 APPPATH\Controllers\Skema.php(26): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Skema->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skema))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-19 23:58:11 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Skema.php on line 26.
+ 1 APPPATH\Controllers\Skema.php(26): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Skema->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Skema))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

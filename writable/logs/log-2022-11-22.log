@@ -1,0 +1,125 @@
+ERROR - 2022-11-22 04:20:17 --> mysqli_sql_exception: Table 'estu.kodena' doesn't exist in C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php(292): mysqli->query('select na.*, ka...', 0)
+#1 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select na.*, ka...')
+#2 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select na.*, ka...')
+#3 C:\xampp\htdocs\estu\app\Controllers\Root.php(23): CodeIgniter\Database\BaseConnection->query('select na.*, ka...')
+#4 C:\xampp\htdocs\estu\system\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+#5 C:\xampp\htdocs\estu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#6 C:\xampp\htdocs\estu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\estu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\estu\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-22 04:20:17 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Root.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-22 04:46:29 --> mysqli_sql_exception: Table 'estu.kodena' doesn't exist in C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php(292): mysqli->query('select na.*, ka...', 0)
+#1 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select na.*, ka...')
+#2 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select na.*, ka...')
+#3 C:\xampp\htdocs\estu\app\Controllers\Root.php(23): CodeIgniter\Database\BaseConnection->query('select na.*, ka...')
+#4 C:\xampp\htdocs\estu\system\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+#5 C:\xampp\htdocs\estu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#6 C:\xampp\htdocs\estu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\estu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\estu\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-22 04:46:29 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Root.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-22 04:46:51 --> mysqli_sql_exception: Table 'estu.kodena' doesn't exist in C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php(292): mysqli->query('select na.*, ka...', 0)
+#1 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select na.*, ka...')
+#2 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select na.*, ka...')
+#3 C:\xampp\htdocs\estu\app\Controllers\Root.php(23): CodeIgniter\Database\BaseConnection->query('select na.*, ka...')
+#4 C:\xampp\htdocs\estu\system\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+#5 C:\xampp\htdocs\estu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#6 C:\xampp\htdocs\estu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\estu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\estu\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-22 04:46:51 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Root.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-22 04:57:44 --> mysqli_sql_exception: Table 'estu.kodena' doesn't exist in C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php(292): mysqli->query('select na.*, ka...', 0)
+#1 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select na.*, ka...')
+#2 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select na.*, ka...')
+#3 C:\xampp\htdocs\estu\app\Controllers\Root.php(23): CodeIgniter\Database\BaseConnection->query('select na.*, ka...')
+#4 C:\xampp\htdocs\estu\system\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+#5 C:\xampp\htdocs\estu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#6 C:\xampp\htdocs\estu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\estu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\estu\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-22 04:57:44 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Root.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 04:59:11 --> Too few arguments to function App\Models\Databasemodel::getData(), 1 passed in C:\xampp\htdocs\estu\app\Controllers\Root.php on line 15 and exactly 2 expected
+in APPPATH\Models\Databasemodel.php on line 13.
+ 1 APPPATH\Controllers\Root.php(15): App\Models\Databasemodel->getData('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 04:59:42 --> Undefined variable $tentang
+in APPPATH\Views\situs\landing.php on line 37.
+ 1 APPPATH\Views\situs\landing.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tentang', 'APPPATH\\Views\\situs\\landing.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\situs\\landing.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('situs/landing', [], true)
+ 5 APPPATH\Controllers\Root.php(16): view('situs/landing')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-11-22 05:08:13 --> mysqli_sql_exception: Table 'estu.kodena' doesn't exist in C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\estu\system\Database\MySQLi\Connection.php(292): mysqli->query('select na.*, ka...', 0)
+#1 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select na.*, ka...')
+#2 C:\xampp\htdocs\estu\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select na.*, ka...')
+#3 C:\xampp\htdocs\estu\app\Controllers\Root.php(24): CodeIgniter\Database\BaseConnection->query('select na.*, ka...')
+#4 C:\xampp\htdocs\estu\system\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+#5 C:\xampp\htdocs\estu\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+#6 C:\xampp\htdocs\estu\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\estu\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\estu\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-11-22 05:08:13 --> Call to a member function getResultArray() on bool
+in APPPATH\Controllers\Root.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-22 05:10:18 --> Invalid file: situs/hasil.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('situs/hasil.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('situs/hasil', [], true)
+ 3 APPPATH\Controllers\Root.php(23): view('situs/hasil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Root->tampilhasil()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Root))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,12 @@
+CRITICAL - 2023-02-15 05:56:46 --> Undefined array key "02"
+in APPPATH\Views\admin\nilai.php on line 79.
+ 1 APPPATH\Views\admin\nilai.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "02"', 'APPPATH\\Views\\admin\\nilai.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\nilai.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/nilai', [], true)
+ 5 APPPATH\Controllers\Nilai.php(23): view('admin/nilai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Nilai->tampildata()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nilai))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
